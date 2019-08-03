@@ -1,0 +1,5 @@
+<?php declare(strict_types=1); ?>
+<pre class="say"><?= $this->render('/blocks/npc', ['npc' => $this->npc]); ?> says: Thanks for helping me out <?= $this->render('/blocks/player', ['player' => $this->player]); ?>!</pre>
+<pre class="say"><?= $this->render('/blocks/npc', ['npc' => $this->npc]); ?> says: Here. Take <?= $this->render('/blocks/item', ['item' => $this->magicWand]); ?>. My father lives in <?= $this->render('/blocks/tile', ['tile' => $this->magicTower]); ?> <?= $this->render('/blocks/direction', ['direction' => 'south west']); ?> from here.</pre>
+<pre class="say"><?= $this->render('/blocks/npc', ['npc' => $this->npc]); ?> says: The easiest way to get there is to exit the house and follow the path to the <?= $this->render('/blocks/direction', ['direction' => 'east']); ?>.</pre>
+<pre class="say"><?= $this->render('/blocks/npc', ['npc' => $this->npc]); ?> says: Then follow the path to the <?= $this->render('/blocks/direction', ['direction' => 'south']); ?> and head <?= $this->render('/blocks/direction', ['direction' => 'west']); ?> until you see <?= $this->render('/blocks/npc', ['npc' => $this->oldMan]); ?>.</pre>

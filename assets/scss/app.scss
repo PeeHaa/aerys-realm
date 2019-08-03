@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(16, 23, 30);
+    margin: 0;
+    padding: 0;
+}
+
+.log {
+    overflow-y: scroll;
+    height: calc(100% - 40px);
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.command {
+    color: yellow;
+}
+
+.player {
+    color: green;
+}
+
+.enemy {
+    color: orangered;
+}
+
+.npc {
+    color: #0ad591;
+}
+
+.item {
+    color: #8183fc;
+}
+
+.enemyLevel {
+    color: #9f4040;
+}
+
+.direction {
+    color: greenyellow;
+}
+
+.location {
+    color: darkturquoise;
+}
+
+.playerDamage {
+    color: red;
+    font-weight: bold;
+}
+
+.enemyDamage {
+    color: lime;
+    font-weight: bold;
+}
+
+.enemyMiss {
+    color: #ddcb4a;
+    font-weight: bold;
+}
+
+.enemyDamage {
+    color: lime;
+    font-weight: bold;
+}
+
+.playerDeath {
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.playerSpawn {
+    color: purple;
+}
+
+.info {
+    color: #ff0000;
+}
+
+.levelUp {
+    color: #ffff00;
+}
+
+.admin {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.input {
+    height: 40px;
+}
+
+[name="input"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-top: 1px dashed white;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+    background: rgb(16, 23, 30);
+}

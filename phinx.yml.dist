@@ -1,0 +1,38 @@
+paths:
+    migrations: '%%PHINX_CONFIG_DIR%%/database/migrations'
+    seeds: '%%PHINX_CONFIG_DIR%%/database/seeds'
+
+environments:
+    default_migration_table: phinxlog
+    default_database: development
+    production:
+        adapter: pgsql
+        host: 127.0.0.1
+        name: aerys
+        user: username
+        pass: 'password'
+        port: 5432
+        charset: utf8
+        collation: utf8_unicode_ci
+
+    development:
+        adapter: pgsql
+        host: 127.0.0.1
+        name: aerys_realm
+        user: username
+        pass: 'password'
+        port: 5432
+        charset: utf8
+        collation: utf8_unicode_ci
+
+    testing:
+        adapter: mysql
+        host: localhost
+        name: aerys
+        user: username
+        pass: 'password'
+        port: 5432
+        charset: utf8
+        collation: utf8_unicode_ci
+
+version_order: creation
